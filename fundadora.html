@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Bella - Fundadora</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #d4517d; --secondary: #f7b4d0; --gold: #e8ba7e; --dark: #2d1b2e; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        header { background: linear-gradient(135deg, var(--primary) 0%, #a83864 100%); color: white; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 20px rgba(212, 81, 125, 0.3); }
+        .header-top { background: rgba(0,0,0,0.2); text-align: center; padding: 0.5rem; font-size: 0.75rem; letter-spacing: 1px; }
+        .logo-container { text-align: center; padding: 1.5rem 1rem; }
+        .logo { font-size: 2rem; font-weight: 600; letter-spacing: 2px; }
+        .tagline { font-size: 0.9rem; margin-top: 0.3rem; opacity: 0.95; }
+        .tab-nav { background: rgba(255,255,255,0.95); display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+        .tab-nav::-webkit-scrollbar { display: none; }
+        .tab-nav a { flex: 0 0 auto; padding: 0.7rem 1rem; background: transparent; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: all 0.3s; border-bottom: 3px solid transparent; white-space: nowrap; }
+        .tab-nav a:hover { background: rgba(212, 81, 125, 0.1); }
+        .tab-nav a.active { color: var(--primary); border-bottom-color: var(--primary); background: rgba(212, 81, 125, 0.05); }
+        section { padding: 3rem 1.5rem; max-width: 1200px; margin: 0 auto; }
+        h2 { font-size: 2rem; color: var(--primary); margin-bottom: 1.5rem; text-align: center; font-weight: 600; }
+        h3 { color: var(--primary); font-size: 1.3rem; margin-bottom: 1rem; font-weight: 600; }
+        .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card p { font-size: 1rem; line-height: 1.7; color: #555; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem 1.5rem; margin-top: 3rem; }
+        @media (max-width: 768px) { .logo { font-size: 1.5rem; } h2 { font-size: 1.6rem; } section { padding: 2rem 1rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">✨ ENVÍOS A TODO EL PAÍS • ASESORÍA PERSONALIZADA • LOS MEJORES PRECIOS ✨</div>
+        <div class="logo-container"><div class="logo">Alma Bella</div><div class="tagline">Resalta tu Belleza Natural</div></div>
+        <div class="tab-nav">
+            <a href="index.html">🏠 Inicio</a>
+            <a href="historia.html">📖 Historia</a>
+            <a href="vision.html">💎 Visión</a>
+            <a href="mision.html">🌸 Misión</a>
+            <a href="fundadora.html" class="active">👑 Fundadora</a>
+            <a href="catalogo.html">🛍️ Catálogo</a>
+            <a href="objetivos.html">🎯 Objetivos</a>
+            <a href="promociones.html">🎁 Promociones</a>
+            <a href="ubicacion.html">📍 Ubicación</a>
+            <a href="contacto.html">💬 Contacto</a>
+            <a href="porque.html">💖 Por Qué</a>
+            <a href="disenadores.html">💻 Diseñadores</a>
+        </div>
+    </header>
+    <section>
+        <h2>👑 Nuestra Fundadora</h2>
+        <div class="card" style="text-align: center;">
+            <div style="width: 180px; height: 180px; background: linear-gradient(135deg, var(--primary), var(--gold)); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 4rem;"><img src="fundadora.jpeg" alt="" width="200px"></div>
+            <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Alejandra Hernández</h3>
+            <p style="font-size: 1.1rem; font-style: italic; color: var(--gold); margin-bottom: 1.5rem;">Fundadora y Directora</p>
+            <p style="font-size: 1rem; line-height: 1.8; margin-bottom: 1.5rem;">Alejandra es el corazón y alma de Alma Bella. Desde niña, cultivó una profunda pasión por el mundo de la belleza, inspirada por su abuela. Junto con sus padres, transformó ese amor en una empresa que hoy es referente en la región.</p>
+            <p style="font-size: 1rem; line-height: 1.8;">Hoy en día, Alma Bella cuenta con un equipo de dos colaboradoras y mantiene una comunicación activa con sus clientes a través de Instagram, Facebook y WhatsApp.</p>
+        </div>
+    </section>
+    <footer>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h3 style="color: var(--secondary); margin-bottom: 1rem; font-size: 1.8rem;">Alma Bella</h3>
+            <p>Resalta tu Belleza Natural</p>
+            <div style="margin: 1.5rem 0;"><p>📞 313 808 1369</p><p>📍 Calle 11 #12-32, San Vicente de Chucurí</p></div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.2); margin-top: 2rem; padding-top: 1rem;">
+                <p>© 2025 Alma Bella - Todos los derechos reservados</p>
+                <p style="margin-top: 0.5rem; font-size: 0.9rem;">Fundada en 2020 por Alejandra Hernández</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

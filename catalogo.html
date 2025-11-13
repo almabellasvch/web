@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Bella - Catálogo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #d4517d; --secondary: #f7b4d0; --gold: #e8ba7e; --dark: #2d1b2e; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        header { background: linear-gradient(135deg, var(--primary) 0%, #a83864 100%); color: white; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 20px rgba(212, 81, 125, 0.3); }
+        .header-top { background: rgba(0,0,0,0.2); text-align: center; padding: 0.5rem; font-size: 0.75rem; }
+        .logo-container { text-align: center; padding: 1.5rem 1rem; }
+        .logo { font-size: 2rem; font-weight: 600; }
+        .tagline { font-size: 0.9rem; margin-top: 0.3rem; }
+        .tab-nav { background: rgba(255,255,255,0.95); display: flex; overflow-x: auto; scrollbar-width: none; }
+        .tab-nav::-webkit-scrollbar { display: none; }
+        .tab-nav a { flex: 0 0 auto; padding: 0.7rem 1rem; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.85rem; border-bottom: 3px solid transparent; white-space: nowrap; }
+        .tab-nav a.active { border-bottom-color: var(--primary); background: rgba(212, 81, 125, 0.05); }
+        section { padding: 3rem 1.5rem; max-width: 1200px; margin: 0 auto; }
+        h2 { font-size: 2rem; color: var(--primary); margin-bottom: 1.5rem; text-align: center; }
+        h3 { color: var(--primary); font-size: 1.3rem; margin: 2rem 0 1rem; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .producto-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 15px rgba(0,0,0,0.08); }
+        .producto-img { height: 200px; background: linear-gradient(135deg, var(--secondary), var(--gold)); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+        .producto-info { padding: 1.2rem; }
+        .producto-precio { color: var(--primary); font-size: 1.5rem; font-weight: bold; margin: 0.8rem 0; }
+        .btn { display: inline-block; padding: 0.8rem 1.8rem; background: var(--primary); color: white; text-decoration: none; border-radius: 25px; font-weight: 600; font-size: 0.9rem; border: none; cursor: pointer; width: 100%; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">✨ ENVÍOS A TODO EL PAÍS • ASESORÍA PERSONALIZADA ✨</div>
+        <div class="logo-container"><div class="logo">Alma Bella</div><div class="tagline">Resalta tu Belleza Natural</div></div>
+        <div class="tab-nav">
+            <a href="index.html">🏠 Inicio</a>
+            <a href="historia.html">📖 Historia</a>
+            <a href="vision.html">💎 Visión</a>
+            <a href="mision.html">🌸 Misión</a>
+            <a href="fundadora.html">👑 Fundadora</a>
+            <a href="catalogo.html" class="active">🛍️ Catálogo</a>
+            <a href="objetivos.html">🎯 Objetivos</a>
+            <a href="promociones.html">🎁 Promociones</a>
+            <a href="ubicacion.html">📍 Ubicación</a>
+            <a href="contacto.html">💬 Contacto</a>
+            <a href="porque.html">💖 Por Qué</a>
+            <a href="disenadores.html">💻 Diseñadores</a>
+        </div>
+    </header>
+    <section>
+        <h2>💅 Nuestro Catálogo</h2>
+        <h3>💄 Maquillaje</h3>
+        <div class="grid">
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zLabial.png" style="height: fit-content;"  alt="Base" width="300px"></div><div class="producto-info"><h3>Labiales Mate</h3><p>Larga duración en colores intensos</p><p class="producto-precio">$35,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Labiales%20Mate" class="btn">Pedir</a></div></div>
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zBase.png" style="height: fit-content;"  alt="Base" width="180px"></div><div class="producto-info"><h3>Base de Maquillaje HD</h3><p>Cobertura perfecta</p><p class="producto-precio">$68,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Base%20de%20Maquillaje" class="btn">Pedir</a></div></div>
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zPaleta.png" style="height: fit-content;"  alt="Paleta" width="300px"></div><div class="producto-info"><h3>Paleta de Sombras</h3><p>12 tonos pigmentados</p><p class="producto-precio">$55,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Paleta%20de%20Sombras" class="btn">Pedir</a></div></div>
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zMascara.png" style="height: fit-content;"  alt="Mascara" width="300px"></div><div class="producto-info"><h3>Máscara de Pestañas</h3><p>Volumen extremo</p><p class="producto-precio">$42,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Máscara%20de%20Pestañas" class="btn">Pedir</a></div></div>
+        </div>
+        <h3>💅 Cuidado de Uñas</h3>
+        <div class="grid">
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zEsmalte.png" style="height: fit-content;"  alt="Esmalte" width="300px"></div><div class="producto-info"><h3>Esmalte Semipermanente</h3><p>Duración 3 semanas</p><p class="producto-precio">$28,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Esmalte%20Semipermanente" class="btn">Pedir</a></div></div>
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zKit.png" style="height: fit-content;"  alt="Kit uñas" width="300px"></div><div class="producto-info"><h3>Kit Uñas Acrílicas</h3><p>Kit completo profesional</p><p class="producto-precio">$95,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Kit%20Uñas%20Acrílicas" class="btn">Pedir</a></div></div>
+        </div>
+        <h3>💆‍♀️ Cuidado Capilar</h3>
+        <div class="grid">
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zShampoo.png" style="height: fit-content;"  alt="Shampoo" width="300px"></div><div class="producto-info"><h3>Shampoo Hidratante</h3><p>Limpieza profunda</p><p class="producto-precio">$32,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Shampoo%20Hidratante" class="btn">Pedir</a></div></div>
+            <div class="producto-card"><div style="text-align: center; display: flex; justify-content: center;"><img src="zMascarilla.png" style="height: fit-content;"  alt="Mascarilla" width="300px"></div><div class="producto-info"><h3>Mascarilla Reparadora</h3><p>Tratamiento intensivo</p><p class="producto-precio">$45,000</p><a href="https://wa.me/573138081369?text=Hola,%20quiero%20Mascarilla%20Reparadora" class="btn">Pedir</a></div></div>
+        </div>
+    </section>
+    <footer>
+        <h3 style="color: var(--secondary);">Alma Bella</h3>
+        <p>📞 313 808 1369 | 📍 San Vicente de Chucurí</p>
+        <p style="margin-top: 1rem;">© 2025 Alma Bella</p>
+    </footer>
+</body>
+</html>

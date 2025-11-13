@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Bella - Por Qué Elegirnos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #d4517d; --secondary: #f7b4d0; --gold: #e8ba7e; --dark: #2d1b2e; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        header { background: linear-gradient(135deg, var(--primary) 0%, #a83864 100%); color: white; position: sticky; top: 0; z-index: 1000; }
+        .header-top { background: rgba(0,0,0,0.2); text-align: center; padding: 0.5rem; font-size: 0.75rem; }
+        .logo-container { text-align: center; padding: 1.5rem 1rem; }
+        .logo { font-size: 2rem; font-weight: 600; }
+        .tab-nav { background: rgba(255,255,255,0.95); display: flex; overflow-x: auto; scrollbar-width: none; }
+        .tab-nav a { flex: 0 0 auto; padding: 0.7rem 1rem; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.85rem; border-bottom: 3px solid transparent; white-space: nowrap; }
+        .tab-nav a.active { border-bottom-color: var(--primary); background: rgba(212, 81, 125, 0.05); }
+        section { padding: 3rem 1.5rem; max-width: 1200px; margin: 0 auto; }
+        h2, h3 { color: var(--primary); text-align: center; }
+        h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
+        .btn { display: inline-block; padding: 0.8rem 1.8rem; background: var(--primary); color: white; text-decoration: none; border-radius: 25px; font-weight: 600; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">✨ ENVÍOS A TODO EL PAÍS • ASESORÍA PERSONALIZADA ✨</div>
+        <div class="logo-container"><div class="logo">Alma Bella</div><div class="tagline">Resalta tu Belleza Natural</div></div>
+        <div class="tab-nav">
+            <a href="index.html">🏠 Inicio</a>
+            <a href="historia.html">📖 Historia</a>
+            <a href="vision.html">💎 Visión</a>
+            <a href="mision.html">🌸 Misión</a>
+            <a href="fundadora.html">👑 Fundadora</a>
+            <a href="catalogo.html">🛍️ Catálogo</a>
+            <a href="objetivos.html">🎯 Objetivos</a>
+            <a href="promociones.html">🎁 Promociones</a>
+            <a href="ubicacion.html">📍 Ubicación</a>
+            <a href="contacto.html">💬 Contacto</a>
+            <a href="porque.html" class="active">💖 Por Qué</a>
+            <a href="disenadores.html">💻 Diseñadores</a>
+        </div>
+    </header>
+    <section>
+        <h2>💖 ¿Por Qué Comprar en Alma Bella?</h2>
+        <div class="card" style="text-align: center; margin-bottom: 2rem;">
+            <h3 style="font-size: 2rem; margin-bottom: 1rem;">✨ Tu Belleza, Nuestra Pasión</h3>
+            <p style="font-size: 1.1rem; line-height: 1.8;">En <strong>Alma Bella</strong> no solo vendemos productos, creamos experiencias. Cada artículo ha sido cuidadosamente seleccionado pensando en ti.</p>
+        </div>
+        <div class="grid">
+            <div class="card"><h3>✅ Calidad Garantizada</h3><p>Trabajamos solo con las mejores marcas del mercado. Cada producto está verificado y garantizado.</p></div>
+            <div class="card"><h3>👍 Atención Personalizada</h3><p>Nuestro equipo de expertas está siempre listo para asesorarte.</p></div>
+            <div class="card"><h3>💰 Mejores Precios</h3><p>Ofrecemos precios competitivos sin comprometer la calidad.</p></div>
+            <div class="card"><h3>🚚 Envíos Rápidos</h3><p>Recibe tus productos en la comodidad de tu hogar.</p></div>
+            <div class="card"><h3>🏆 Experiencia</h3><p>Más de 5 años respaldándonos en la región.</p></div>
+            <div class="card"><h3>🌟 Productos de Tendencia</h3><p>Siempre actualizados con las últimas tendencias.</p></div>
+        </div>
+        <div style="background: linear-gradient(135deg, var(--primary), #a83864); color: white; padding: 3rem 2rem; border-radius: 20px; margin-top: 3rem; text-align: center;">
+            <h3 style="color: white; font-size: 2rem; margin-bottom: 1rem;">💖 Únete a la Familia Alma Bella</h3>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Miles de clientas satisfechas ya confían en nosotros. Es tu turno de descubrir por qué somos tu aliada de belleza.</p>
+            <p style="font-size: 1.2rem; font-weight: bold;">✨ No esperes más. Tu belleza te está esperando ✨</p>
+            <a href="catalogo.html" class="btn" style="margin-top: 2rem; background: white; color: var(--primary);">Comprar Ahora</a>
+        </div>
+    </section>
+    <footer>
+        <h3 style="color: var(--secondary);">Alma Bella</h3>
+        <p>📞 313 808 1369 | 📍 San Vicente de Chucurí</p>
+        <p style="margin-top: 1rem;">© 2025 Alma Bella</p>
+    </footer>
+</body>
+</html>

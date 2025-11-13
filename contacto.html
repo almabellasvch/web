@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Bella - Contacto</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #d4517d; --secondary: #f7b4d0; --gold: #e8ba7e; --dark: #2d1b2e; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        header { background: linear-gradient(135deg, var(--primary) 0%, #a83864 100%); color: white; position: sticky; top: 0; z-index: 1000; }
+        .header-top { background: rgba(0,0,0,0.2); text-align: center; padding: 0.5rem; font-size: 0.75rem; }
+        .logo-container { text-align: center; padding: 1.5rem 1rem; }
+        .logo { font-size: 2rem; font-weight: 600; }
+        .tab-nav { background: rgba(255,255,255,0.95); display: flex; overflow-x: auto; scrollbar-width: none; }
+        .tab-nav a { flex: 0 0 auto; padding: 0.7rem 1rem; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.85rem; border-bottom: 3px solid transparent; white-space: nowrap; }
+        .tab-nav a.active { border-bottom-color: var(--primary); background: rgba(212, 81, 125, 0.05); }
+        section { padding: 3rem 1.5rem; max-width: 1200px; margin: 0 auto; }
+        h2 { font-size: 2rem; color: var(--primary); margin-bottom: 1.5rem; text-align: center; }
+        h3 { color: var(--primary); }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .contact-card { background: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 3px 15px rgba(0,0,0,0.08); }
+        .social-link { display: inline-block; padding: 0.7rem 1.5rem; background: var(--primary); color: white; text-decoration: none; border-radius: 20px; margin: 0.5rem; font-size: 0.9rem; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">✨ ENVÍOS A TODO EL PAÍS • ASESORÍA PERSONALIZADA ✨</div>
+        <div class="logo-container"><div class="logo">Alma Bella</div><div class="tagline">Resalta tu Belleza Natural</div></div>
+        <div class="tab-nav">
+            <a href="index.html">🏠 Inicio</a>
+            <a href="historia.html">📖 Historia</a>
+            <a href="vision.html">💎 Visión</a>
+            <a href="mision.html">🌸 Misión</a>
+            <a href="fundadora.html">👑 Fundadora</a>
+            <a href="catalogo.html">🛍️ Catálogo</a>
+            <a href="objetivos.html">🎯 Objetivos</a>
+            <a href="promociones.html">🎁 Promociones</a>
+            <a href="ubicacion.html">📍 Ubicación</a>
+            <a href="contacto.html" class="active">💬 Contacto</a>
+            <a href="porque.html">💖 Por Qué</a>
+            <a href="disenadores.html">💻 Diseñadores</a>
+        </div>
+    </header>
+    <section>
+        <h2>💬 Contáctanos</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>📱 WhatsApp</h3>
+                <p style="font-size: 1.15rem; margin: 1rem 0;">313 808 1369</p>
+                <a href="https://wa.me/573138081369?text=Hola%20Alma%20Bella" target="_blank" class="social-link">Chatea con Nosotros</a>
+            </div>
+            <div class="contact-card">
+                <h3>📷 Instagram</h3>
+                <p style="font-size: 1.15rem; margin: 1rem 0;">@almabella21</p>
+                <a href="https://www.instagram.com/almabella21?igsh=ejB1NnRxcDNhenZ4" target="_blank" class="social-link">Síguenos</a>
+            </div>
+            <div class="contact-card">
+                <h3>📘 Facebook</h3>
+                <p style="font-size: 1.15rem; margin: 1rem 0;">Alma Bella</p>
+                <a href="https://www.facebook.com/almabella" target="_blank" class="social-link">Encuéntranos</a>
+            </div>
+            <div class="contact-card">
+                <h3>⏰ Horario</h3>
+                <p style="font-size: 1.05rem; margin: 1rem 0;">Lunes a Sábado<br>9:00 AM - 7:00 PM<br><br>Domingos<br>10:00 AM - 2:00 PM</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3 style="color: var(--secondary);">Alma Bella</h3>
+        <p>📞 313 808 1369 | 📍 San Vicente de Chucurí</p>
+        <p style="margin-top: 1rem;">© 2025 Alma Bella</p>
+    </footer>
+</body>
+</html>
